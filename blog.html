@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Post — GitBlog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a class="nav-brand" href="index.html">GitBlog</a>
+    <div class="nav-links">
+      <a href="index.html">← All Posts</a>
+    </div>
+  </nav>
+
+  <!-- BLOG HERO -->
+  <div class="blog-page-hero">
+    <a class="blog-back" href="index.html">
+      ← Back to all posts
+    </a>
+    <h1 class="blog-page-title" id="blog-title">Loading…</h1>
+    <div class="blog-meta-row">
+      <span class="blog-date" id="blog-date"></span>
+      <div id="blog-tags" style="display:flex;gap:0.4rem;flex-wrap:wrap;"></div>
+    </div>
+  </div>
+
+  <!-- BLOG BODY -->
+  <article class="blog-body" id="blog-content">
+    Loading post…
+  </article>
+
+  <!-- TOAST -->
+  <div id="toast"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
