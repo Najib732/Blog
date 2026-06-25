@@ -1,0 +1,211 @@
+{
+  "categories": [
+    {
+      "name": "Core",
+      "description": "Setup & Configuration — Foundation modules",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "name": "Standard",
+      "description": "Academic & Student Management — Day-to-day academic operations",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "name": "Premium",
+      "description": "HR, Exam & Finance — Advanced institutional management",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "name": "Advanced",
+      "description": "Communication & Engagement — Messaging, notices & mobile",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "name": "Ultimate",
+      "description": "Web, Admissions & Integrations — External-facing & hardware",
+      "createdAt": "2026-06-25"
+    }
+  ],
+  "modules": [
+    {
+      "title": "User Management",
+      "category": "Core",
+      "description": "Create User, Create Roles, Change Password, Configure Permissions, User Login History",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "Location Configuration",
+      "category": "Core",
+      "description": "Country, Division, District, Upazilla",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "Infrastructure Configuration",
+      "category": "Core",
+      "description": "Manage Building, Manage Class Room",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "Academic Structure Setup",
+      "category": "Core",
+      "description": "Setup Academic Year, Create Class, Create Class Section, Class wise Section, Version, Shift, Group, Academic Calendar, Education Board Information",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "HR Structure Setup",
+      "category": "Core",
+      "description": "Department, Designation, Rank",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "Student list",
+      "category": "Core",
+      "description": "View Student Directory",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "Subject Management",
+      "category": "Standard",
+      "description": "Subject Entry with Details, Assign Subject to Class & Group",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "Student Admission",
+      "category": "Standard",
+      "description": "Student Admission Information, Current Student Information Import (Excel / Data Entry)",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "Student Profile Management",
+      "category": "Standard",
+      "description": "Assign Section of Student, Assign Student Optional & Compulsory Subject, Student Profile with All Information, Tot List, Students Daily Attendance",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "Digital Content Management",
+      "category": "Standard",
+      "description": "Document Class / Section Wise, Home Work, Class Work, Unit Test, Exam Paper, Lesson Plan, Work Sheet",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "Routine Management",
+      "category": "Standard",
+      "description": "Section Wise Daily Class Routine, Weekly Class Routine, Teacher Wise Class Routine, Student Wise Class Routine",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "Student Panel",
+      "category": "Standard",
+      "description": "View Fees Details, View Student Information, View Result Details, View Academic Calendar, View Attendance History, View SMS Details, View Class Document, Password Change, Picture Upload / Edit, View Class Routine",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "Teacher Panel",
+      "category": "Standard",
+      "description": "View Teacher Details, Teacher Wise Class Routine, Teacher Wise Exam Routine, View SMS Details, View Attendance Details, View Academic Calendar, Send Class Document, Exam Marks Entry as per Routine, Teacher Information Update / Edit, Student Attendance Info, Send Student Absent SMS",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "Library Management",
+      "category": "Standard",
+      "description": "Library Report, Manage Borrow, Manage Material, Manage Material Types",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "Employee Information Management",
+      "category": "Premium",
+      "description": "Employee Details Information, Teacher / Class Teacher Information, Class Teacher Information, Employee Education",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "Employee Attendance Management",
+      "category": "Premium",
+      "description": "Employee Daily Attendance, Teacher Attendance Time Setting, Employee Leave",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "Exam Setup",
+      "category": "Premium",
+      "description": "Exam Types, Exam Terms, New / View Exam Date, My Assigned Exams, Exam Marks Setup",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "Exam Marks & Result Processing",
+      "category": "Premium",
+      "description": "Exam Marks Entry, Auto Tabulation Sheet, Auto Student Marks Sheet, Auto Merit List (Class / Section / Shift Wise), Student Promotion",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "Exam Reports & Documentation",
+      "category": "Premium",
+      "description": "Tabulation Sheet / Marks Sheet Signature Setup, At a Glance Report, Graphical Report, Exam Routine Management, Honor Roll",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "Fees Setup",
+      "category": "Premium",
+      "description": "Create Fees Head, Create Installment, Assign Class Wise Payment Head, Class Wise Payment Setup, Free / Half Free Setup, Scholarship",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "Fees Collection & Reports",
+      "category": "Premium",
+      "description": "Student Wise Fees Setup, Fees Reports",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "Inventory Management",
+      "category": "Premium",
+      "description": "Store, Product Type, Product, Product Item, Vendor, Product Issue, Reports",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "SMS Management",
+      "category": "Advanced",
+      "description": "SMS Send to Teacher / Student / Employee / Class Teacher, SMS Template, SMS Report, SMS Balance Check, SMS Delivery History",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "Notice Management",
+      "category": "Advanced",
+      "description": "Notice for All / Teacher / Student / Employee / Class Teacher, Notice Image Uploading, Notice View in Website Form Software",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "Mobile Apps",
+      "category": "Advanced",
+      "description": "Guardian App, Teachers App",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "Communication",
+      "category": "Advanced",
+      "description": "Chat",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "Website Content Management",
+      "category": "Ultimate",
+      "description": "Home Menu Setup, Unlimited Page Create, Home Message (Principal, Chairman), Scrolling News Create, Website Setup (Logo Upload, Color Change, etc.), Academic Event Create, Home Slider, Photo Gallery, Visitor Details",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "Website Auto-Sync & Publishing",
+      "category": "Ultimate",
+      "description": "Auto Student Information View, Auto Teacher Information View, Auto Routine View, Publish Result View, Online Admission, Employee Requirement, Website Attribute",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "Online Admission Management",
+      "category": "Ultimate",
+      "description": "Admission Circular Setup, Online Admission Form with Applicant Information, Applicant Basic Information, Applicant Parent Information, Manage Board Selected List",
+      "createdAt": "2026-06-25"
+    },
+    {
+      "title": "Attendance Device Integration",
+      "category": "Ultimate",
+      "description": "Individual Employee Log, Student Log, Teacher Log, Attendance Report Details, Attendance Auto SMS, Device Integration",
+      "createdAt": "2026-06-25"
+    }
+  ]
+}

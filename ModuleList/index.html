@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ModuleVault</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="app">
+  <div class="header">
+    <div style="display:flex;align-items:center;gap:8px">
+      <h1>⬡ ModuleVault</h1>
+    </div>
+    <div class="header-right">
+      <button class="btn btn-success" onclick="downloadExcel()">⬇ Download .xlsx</button>
+      <span style="font-size:12px;color:var(--muted)" id="repo-label"></span>
+    </div>
+  </div>
+
+  <div class="token-bar">
+    <span style="font-size:13px;color:var(--text);font-weight:500">📂 Local Storage Mode</span>
+    <span class="status ok" style="margin-left:auto">✓ Data auto-saved locally</span>
+  </div>
+  <div style="padding:4px 20px 8px;background:var(--surface2);border-bottom:1px solid var(--border)">
+    <span class="security-note">💾 All changes are saved to browser storage instantly. No cloud sync needed.</span>
+  </div>
+
+  <div class="nav">
+    <button class="nav-btn active" onclick="switchTab('categories')" id="tab-categories">📁 Categories</button>
+    <button class="nav-btn" onclick="switchTab('modules')" id="tab-modules">🧩 Modules</button>
+    <button class="nav-btn" onclick="switchTab('browse')" id="tab-browse">🔍 Browse</button>
+  </div>
+
+  <div class="body">
+    <div id="view-categories">
+      <p class="section-title">Add Category</p>
+      <div class="card">
+        <div class="row">
+          <input type="text" id="cat-name" placeholder="Category name (e.g. Core, Premium, Standard)" />
+        </div>
+        <textarea id="cat-desc" placeholder="Short description (optional)" style="margin-bottom:10px"></textarea>
+        <button class="btn btn-primary" onclick="addCategory()">+ Add Category</button>
+      </div>
+      <hr class="divider">
+      <p class="section-title">Existing Categories</p>
+      <div id="cat-list"></div>
+    </div>
+
+    <div id="view-modules" style="display:none">
+      <p class="section-title">Add Module</p>
+      <div class="card">
+        <div class="row">
+          <input type="text" id="mod-title" placeholder="Module title" style="flex:1" />
+          <select id="mod-cat" style="max-width:180px">
+            <option value="">Select category</option>
+          </select>
+        </div>
+        <textarea id="mod-desc" placeholder="Module description..." style="margin-bottom:10px"></textarea>
+        <button class="btn btn-primary" onclick="addModule()">+ Add Module</button>
+      </div>
+      <hr class="divider">
+      <p class="section-title">Existing Modules</p>
+      <div id="mod-list"></div>
+    </div>
+
+    <div id="view-browse" style="display:none">
+      <p class="section-title">Browse by Category</p>
+      <div class="filter-row" id="browse-filters"></div>
+      <div id="browse-list"></div>
+    </div>
+  </div>
+</div>
+
+<!-- Edit Category Modal -->
+<div class="modal-overlay" id="edit-cat-modal">
+  <div class="modal">
+    <h3>✏️ Edit Category</h3>
+    <input type="text" id="edit-cat-name" placeholder="Category name" style="margin-bottom:10px" />
+    <textarea id="edit-cat-desc" placeholder="Description (optional)"></textarea>
+    <div class="modal-actions">
+      <button class="btn btn-ghost" onclick="closeModal('edit-cat-modal')">Cancel</button>
+      <button class="btn btn-primary" onclick="saveEditCategory()">Save Changes</button>
+    </div>
+  </div>
+</div>
+
+<!-- Edit Module Modal -->
+<div class="modal-overlay" id="edit-mod-modal">
+  <div class="modal">
+    <h3>✏️ Edit Module</h3>
+    <input type="text" id="edit-mod-title" placeholder="Module title" style="margin-bottom:10px" />
+    <select id="edit-mod-cat" style="margin-bottom:10px">
+      <option value="">Select category</option>
+    </select>
+    <textarea id="edit-mod-desc" placeholder="Description"></textarea>
+    <div class="modal-actions">
+      <button class="btn btn-ghost" onclick="closeModal('edit-mod-modal')">Cancel</button>
+      <button class="btn btn-primary" onclick="saveEditModule()">Save Changes</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
