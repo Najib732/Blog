@@ -6,12 +6,5 @@
       "createdAt": "2026-06-25"
     }
   ],
-  "modules": [
-    {
-      "title": "Check",
-      "category": "Core",
-      "description": "",
-      "createdAt": "2026-06-25"
-    }
-  ]
+  "modules": []
 }
