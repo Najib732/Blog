@@ -1,4 +1,10 @@
 {
-  "categories": [],
+  "categories": [
+    {
+      "name": "Core",
+      "description": "",
+      "createdAt": "2026-06-25"
+    }
+  ],
   "modules": []
 }
