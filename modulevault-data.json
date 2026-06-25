@@ -27,7 +27,7 @@
     }
   ],
   "modules": [
-    /* ==================== CORE MODULES ==================== */
+   
     {
       "title": "User Management",
       "category": "Core",
@@ -65,7 +65,7 @@
       "createdAt": "2026-06-25"
     },
 
-    /* ==================== STANDARD MODULES ==================== */
+   
     {
       "title": "Subject Management",
       "category": "Standard",
@@ -115,7 +115,7 @@
       "createdAt": "2026-06-25"
     },
 
-    /* ==================== PREMIUM MODULES ==================== */
+   
     {
       "title": "Employee Information Management",
       "category": "Premium",
@@ -165,7 +165,7 @@
       "createdAt": "2026-06-25"
     },
 
-    /* ==================== ADVANCED MODULES ==================== */
+
     {
       "title": "SMS Management",
       "category": "Advanced",
@@ -191,7 +191,7 @@
       "createdAt": "2026-06-25"
     },
 
-    /* ==================== ULTIMATE MODULES ==================== */
+
     {
       "title": "Website Content Management",
       "category": "Ultimate",
