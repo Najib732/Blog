@@ -24,10 +24,14 @@
       "name": "Ultimate",
       "description": "Web, Admissions & Integrations — External-facing & hardware",
       "createdAt": "2026-06-25"
+    },
+    {
+      "name": "test",
+      "description": "",
+      "createdAt": "2026-06-25"
     }
   ],
   "modules": [
-   
     {
       "title": "User Management",
       "category": "Core",
@@ -64,8 +68,6 @@
       "description": "View Student Directory",
       "createdAt": "2026-06-25"
     },
-
-   
     {
       "title": "Subject Management",
       "category": "Standard",
@@ -114,8 +116,6 @@
       "description": "Library Report, Manage Borrow, Manage Material, Manage Material Types",
       "createdAt": "2026-06-25"
     },
-
-   
     {
       "title": "Employee Information Management",
       "category": "Premium",
@@ -164,8 +164,6 @@
       "description": "Store, Product Type, Product, Product Item, Vendor, Product Issue, Reports",
       "createdAt": "2026-06-25"
     },
-
-
     {
       "title": "SMS Management",
       "category": "Advanced",
@@ -190,8 +188,6 @@
       "description": "Chat",
       "createdAt": "2026-06-25"
     },
-
-
     {
       "title": "Website Content Management",
       "category": "Ultimate",
