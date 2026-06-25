@@ -24,11 +24,6 @@
       "name": "Ultimate",
       "description": "Web, Admissions & Integrations — External-facing & hardware",
       "createdAt": "2026-06-25"
-    },
-    {
-      "name": "test",
-      "description": "",
-      "createdAt": "2026-06-25"
     }
   ],
   "modules": [
